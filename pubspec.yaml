@@ -1,0 +1,39 @@
+name: student_tracker
+description: Student Academic Progress Tracker - A modern academic analytics app
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Charts and graphs
+  fl_chart: ^0.68.0
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Progress indicators
+  percent_indicator: ^4.2.3
+
+  # Calendar
+  table_calendar: ^3.1.2
+
+  # State Management
+  provider: ^6.1.2
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
